@@ -1,0 +1,55 @@
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    
+    height: 25vh;
+}
+.icon1{
+
+    display: flex;
+    font-size: 35px;
+    /* flex-direction: row; */
+}
+.navbar a{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: solid;
+    color: blue;
+}
+.introduction h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.introduction {
+    
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    background-color:rgb(16, 203, 236) ;
+    height: 350px;
+    display: flex;
+  
+}
+.details{
+    flex:1;
+}
+.photo{
+    display: flex;
+     flex:1;
+}
+/* .img1,.img2,.img3{
+    flex:1;
+}
+.img2{
+  transform: scale(0.8);
+}
+.img2:hover{
+    flex:3;
+  transform:scale(1.3);
+} */
+
